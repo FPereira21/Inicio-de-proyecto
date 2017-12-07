@@ -1,5 +1,8 @@
 .divNumeros{
   background-color: #EB485F;
+  padding: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 .divNumeros:nth-child(even){
   background-color: #ABB271;
@@ -13,8 +16,36 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 767px){
   .contenedor{
     grid-template-columns: repeat(1, 4fr)
   }
+}
+
+.icono{
+  float: left;
+  height: 100%;
+  margin-right: 5px;
+  color: white;
+}
+
+.textoYNumeros{
+  text-align: center;
+}
+
+.textoYNumeros1{
+  text-align: center;
+}
+
+h2{
+  font-weight: 700;
+}
+p{
+  font-size: 14px;
+}
+
+.uno{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  justify-items: center;
 }
