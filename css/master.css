@@ -3,6 +3,7 @@
   padding: 10px;
   color: white;
   font-family: "Roboto", sans-serif;
+  height: 215px;
 }
 .divNumeros:nth-child(even){
   background-color: #ABB271;
@@ -35,6 +36,9 @@
 
 .textoYNumeros1{
   text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+
 }
 
 h2{
