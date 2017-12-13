@@ -1,15 +1,13 @@
 .divNumeros{
   background-color: #EB485F;
-  padding: 10px;
   color: white;
   font-family: "Roboto", sans-serif;
   height: 215px;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 .divNumeros:nth-child(even){
   background-color: #ABB271;
-}
-.row{
-  margin-bottom: 10px;
 }
 
 .contenedor{
@@ -24,32 +22,28 @@
 }
 
 .icono{
-  float: left;
-  height: 100%;
-  margin-right: 5px;
+  display: grid;
   color: white;
+  grid-template-rows: auto 30%;
+  align-items: center;
+  justify-items: center;
 }
 
 .textoYNumeros{
   text-align: center;
-}
-
-.textoYNumeros1{
-  text-align: center;
   display: grid;
-  grid-template-rows: auto;
-
+  grid-template-rows: 25% 20% auto 15%;
+  align-content: center;
+  justify-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-h2{
-  font-weight: 700;
-}
 p{
   font-size: 14px;
 }
 
-.uno{
-  display: grid;
-  grid-template-columns: 15% 85%;
-  justify-items: center;
+.fact-count {
+  font-size: 32px;
+  font-weight: 700;
 }
